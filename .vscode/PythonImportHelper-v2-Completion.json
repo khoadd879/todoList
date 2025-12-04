@@ -1,0 +1,1144 @@
+[
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItem",
+        "importPath": "models.todoItems",
+        "description": "models.todoItems",
+        "isExtraImport": true,
+        "detail": "models.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "Status",
+        "importPath": "models.todoItems",
+        "description": "models.todoItems",
+        "isExtraImport": true,
+        "detail": "models.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "TodoList",
+        "importPath": "models.todoLists",
+        "description": "models.todoLists",
+        "isExtraImport": true,
+        "detail": "models.todoLists",
+        "documentation": {}
+    },
+    {
+        "label": "Status",
+        "importPath": "models.todoLists",
+        "description": "models.todoLists",
+        "isExtraImport": true,
+        "detail": "models.todoLists",
+        "documentation": {}
+    },
+    {
+        "label": "TodoListCreate",
+        "importPath": "schemas.todoLists",
+        "description": "schemas.todoLists",
+        "isExtraImport": true,
+        "detail": "schemas.todoLists",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemCreate",
+        "importPath": "schemas.todoItems",
+        "description": "schemas.todoItems",
+        "isExtraImport": true,
+        "detail": "schemas.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemCreate",
+        "importPath": "schemas.todoItems",
+        "description": "schemas.todoItems",
+        "isExtraImport": true,
+        "detail": "schemas.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "importPath": "models.users",
+        "description": "models.users",
+        "isExtraImport": true,
+        "detail": "models.users",
+        "documentation": {}
+    },
+    {
+        "label": "Gender",
+        "importPath": "models.users",
+        "description": "models.users",
+        "isExtraImport": true,
+        "detail": "models.users",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "schemas.users",
+        "description": "schemas.users",
+        "isExtraImport": true,
+        "detail": "schemas.users",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "crud,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "crud.",
+        "description": "crud.",
+        "detail": "crud.",
+        "documentation": {}
+    },
+    {
+        "label": "schemas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "schemas",
+        "description": "schemas",
+        "detail": "schemas",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "todoList",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "todoItems",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "get_todoLists",
+        "kind": 2,
+        "importPath": "crud.todo",
+        "description": "crud.todo",
+        "peekOfCode": "def get_todoLists(db: Session):\n    return db.query(TodoList).all()\n# Hàm tạo todo list mới\ndef create_todoList(db: Session, todoList: TodoListCreate):\n    db_todoList = TodoList(\n        name=todoList.name,\n        status=todoList.status,\n        user_id=todoList.user_id,\n    )\n    db.add(db_todoList)",
+        "detail": "crud.todo",
+        "documentation": {}
+    },
+    {
+        "label": "create_todoList",
+        "kind": 2,
+        "importPath": "crud.todo",
+        "description": "crud.todo",
+        "peekOfCode": "def create_todoList(db: Session, todoList: TodoListCreate):\n    db_todoList = TodoList(\n        name=todoList.name,\n        status=todoList.status,\n        user_id=todoList.user_id,\n    )\n    db.add(db_todoList)\n    db.commit()\n    db.refresh(db_todoList)\n    return db_todoList",
+        "detail": "crud.todo",
+        "documentation": {}
+    },
+    {
+        "label": "update_todoList",
+        "kind": 2,
+        "importPath": "crud.todo",
+        "description": "crud.todo",
+        "peekOfCode": "def update_todoList(db: Session, todoList_id: str, todoList: TodoListCreate):\n    db_todoList = db.query(TodoList).filter(TodoList.id == todoList_id).first()\n    if db_todoList:\n        db_todoList.name = todoList.name\n        db_todoList.status = todoList.status\n        db.commit()\n        db.refresh(db_todoList)\n        return db_todoList\n    return None\n# Hàm quản lý todo items liên quan đến todo list",
+        "detail": "crud.todo",
+        "documentation": {}
+    },
+    {
+        "label": "get_todoItems_by_todoList",
+        "kind": 2,
+        "importPath": "crud.todo",
+        "description": "crud.todo",
+        "peekOfCode": "def get_todoItems_by_todoList(db: Session, todoList_id: str):\n    return db.query(TodoList).filter(TodoList.id == todoList_id).first()\n#Ham xoa todo list lan items thuoc todo list do\ndef delete_todoList_with_items(db: Session, todoList_id: str):\n    todo_list = get_todoItems_by_todoList(db, todoList_id)\n    if todo_list:\n        for item in todo_list.items:\n            db.delete(item)\n        db.delete(todo_list)\n        db.commit()",
+        "detail": "crud.todo",
+        "documentation": {}
+    },
+    {
+        "label": "delete_todoList_with_items",
+        "kind": 2,
+        "importPath": "crud.todo",
+        "description": "crud.todo",
+        "peekOfCode": "def delete_todoList_with_items(db: Session, todoList_id: str):\n    todo_list = get_todoItems_by_todoList(db, todoList_id)\n    if todo_list:\n        for item in todo_list.items:\n            db.delete(item)\n        db.delete(todo_list)\n        db.commit()\n        return True\n    return None\n#Ham xoa item",
+        "detail": "crud.todo",
+        "documentation": {}
+    },
+    {
+        "label": "delete_todoItem",
+        "kind": 2,
+        "importPath": "crud.todo",
+        "description": "crud.todo",
+        "peekOfCode": "def delete_todoItem(db: Session, item_id: str):\n    todo_item = db.query(TodoItem).filter(TodoItem.id == item_id).first()\n    if todo_item:\n        db.delete(todo_item)\n        db.commit()\n        return True\n    return None\n#Ham tao todo item thuoc todo list\ndef create_todoItems_for_todoList(db: Session, todoList_id: str, items_data: list[TodoItemCreate]):\n    todo_list = get_todoItems_by_todoList(db, todoList_id)",
+        "detail": "crud.todo",
+        "documentation": {}
+    },
+    {
+        "label": "create_todoItems_for_todoList",
+        "kind": 2,
+        "importPath": "crud.todo",
+        "description": "crud.todo",
+        "peekOfCode": "def create_todoItems_for_todoList(db: Session, todoList_id: str, items_data: list[TodoItemCreate]):\n    todo_list = get_todoItems_by_todoList(db, todoList_id)\n    if not todo_list:\n        return None\n    created_items = []\n    for item_schema in items_data:\n        new_item = TodoItem(\n            name=item_schema.name,\n            des=item_schema.des,\n            due_at=item_schema.due_at,",
+        "detail": "crud.todo",
+        "documentation": {}
+    },
+    {
+        "label": "get_todoList_with_items",
+        "kind": 2,
+        "importPath": "crud.todo",
+        "description": "crud.todo",
+        "peekOfCode": "def get_todoList_with_items(db: Session, todoList_id: str):\n    todo_list = db.query(TodoList).filter(TodoList.id == todoList_id).first()\n    if not todo_list:\n        return None\n    items = todo_list.items   \n    return todo_list\n#Ham cap nhat todo items thuoc todo list\ndef update_todoItems(db: Session, todoList_id: str, todoItem_id: str, items_data: TodoItemCreate):\n    todo_list = get_todoItems_by_todoList(db, todoList_id)\n    if not todo_list:",
+        "detail": "crud.todo",
+        "documentation": {}
+    },
+    {
+        "label": "update_todoItems",
+        "kind": 2,
+        "importPath": "crud.todo",
+        "description": "crud.todo",
+        "peekOfCode": "def update_todoItems(db: Session, todoList_id: str, todoItem_id: str, items_data: TodoItemCreate):\n    todo_list = get_todoItems_by_todoList(db, todoList_id)\n    if not todo_list:\n        return None\n    todo_item = db.query(TodoItem).filter(TodoItem.id == todoItem_id).first()\n    if not todo_item:\n        return None\n    if todo_list and todo_item:\n        todo_item.name = items_data.name\n        todo_item.des = items_data.des",
+        "detail": "crud.todo",
+        "documentation": {}
+    },
+    {
+        "label": "get_users",
+        "kind": 2,
+        "importPath": "crud.users",
+        "description": "crud.users",
+        "peekOfCode": "def get_users(db: Session):\n    return db.query(Users).all()\n# Hàm tạo user mới\ndef create_user(db: Session, user: UserCreate):\n    db_user = Users(\n        name=user.name,\n        gender=user.gender,\n        dob=user.dob\n    )\n    db.add(db_user)",
+        "detail": "crud.users",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "crud.users",
+        "description": "crud.users",
+        "peekOfCode": "def create_user(db: Session, user: UserCreate):\n    db_user = Users(\n        name=user.name,\n        gender=user.gender,\n        dob=user.dob\n    )\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user",
+        "detail": "crud.users",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "crud.users",
+        "description": "crud.users",
+        "peekOfCode": "def update_user(db: Session, user_id: str, user: UserCreate):\n    db_user = db.query(Users).filter(Users.id == user_id).first()\n    if db_user:\n        db_user.name = user.name\n        db_user.gender = user.gender\n        db_user.dob = user.dob\n        db.commit()\n        db.refresh(db_user)\n        return db_user\n    return None",
+        "detail": "crud.users",
+        "documentation": {}
+    },
+    {
+        "label": "delete_user",
+        "kind": 2,
+        "importPath": "crud.users",
+        "description": "crud.users",
+        "peekOfCode": "def delete_user(db: Session, user_id: str):\n    db_user = db.query(Users).filter(Users.id == user_id).first()\n    if db_user:\n        db.delete(db_user)\n        db.commit()\n        return True\n    return None",
+        "detail": "crud.users",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "database.database",
+        "description": "database.database",
+        "peekOfCode": "DATABASE_URL = \"postgresql://myuser:mypassword@localhost:5432/todo_db\"\n# 1. Tạo Engine\nengine = create_engine(DATABASE_URL)\n# 2. Tạo SessionLocal (để sau này dùng trong mỗi request API)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# 3. Tạo Base (Class cha cho các model)\nBase = declarative_base()",
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "database.database",
+        "description": "database.database",
+        "peekOfCode": "engine = create_engine(DATABASE_URL)\n# 2. Tạo SessionLocal (để sau này dùng trong mỗi request API)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# 3. Tạo Base (Class cha cho các model)\nBase = declarative_base()",
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "database.database",
+        "description": "database.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# 3. Tạo Base (Class cha cho các model)\nBase = declarative_base()",
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "database.database",
+        "description": "database.database",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Status",
+        "kind": 6,
+        "importPath": "models.todoItems",
+        "description": "models.todoItems",
+        "peekOfCode": "class Status(str, Enum):\n    TODO = \"Todo\"\n    IN_PROCESS = \"In-Process\"\n    FINISH = \"Finish\"\nclass TodoItem(Base):\n    __tablename__ = \"todo_items\"\n    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))\n    todo_group_id = Column(String, ForeignKey(\"todo_list.id\"))\n    name = Column(String, index=True)\n    des = Column(String, index=True)",
+        "detail": "models.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItem",
+        "kind": 6,
+        "importPath": "models.todoItems",
+        "description": "models.todoItems",
+        "peekOfCode": "class TodoItem(Base):\n    __tablename__ = \"todo_items\"\n    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))\n    todo_group_id = Column(String, ForeignKey(\"todo_list.id\"))\n    name = Column(String, index=True)\n    des = Column(String, index=True)\n    due_at = Column(DateTime, index=True)\n    status = Column(\n    SQLAlchemyEnum(Status, values_callable=lambda x: [e.value for e in x], native_enum=False),\n    default=Status.TODO",
+        "detail": "models.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "Status",
+        "kind": 6,
+        "importPath": "models.todoLists",
+        "description": "models.todoLists",
+        "peekOfCode": "class Status(str, Enum):\n    UNFINISHED = \"Unfinished\"\n    FINISH = \"Finish\"\nclass TodoList(Base):\n    __tablename__ = \"todo_list\"\n    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))\n    name = Column(String, index=True)\n    status = Column(SQLAlchemyEnum(Status), default=Status.UNFINISHED)\n    user_id = Column(String, ForeignKey(\"users.id\"))\n    createdAt = Column(DateTime, default=datetime.now)",
+        "detail": "models.todoLists",
+        "documentation": {}
+    },
+    {
+        "label": "TodoList",
+        "kind": 6,
+        "importPath": "models.todoLists",
+        "description": "models.todoLists",
+        "peekOfCode": "class TodoList(Base):\n    __tablename__ = \"todo_list\"\n    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))\n    name = Column(String, index=True)\n    status = Column(SQLAlchemyEnum(Status), default=Status.UNFINISHED)\n    user_id = Column(String, ForeignKey(\"users.id\"))\n    createdAt = Column(DateTime, default=datetime.now)\n    updatedAt = Column(DateTime, default=datetime.now, onupdate=datetime.now)\n    items = relationship(\"TodoItem\", back_populates=\"todo_list\")\n    owner = relationship(\"Users\", back_populates=\"todo_lists\")",
+        "detail": "models.todoLists",
+        "documentation": {}
+    },
+    {
+        "label": "Gender",
+        "kind": 6,
+        "importPath": "models.users",
+        "description": "models.users",
+        "peekOfCode": "class Gender(str, Enum):\n    MALE = \"M\"\n    FEMALE = \"F\"\nclass Users(Base):\n    __tablename__ = \"users\"\n    id =  Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))\n    name =  Column(String, index=True)\n    gender = Column(SQLAlchemyEnum(Gender), nullable=False)\n    dob = Column(DateTime)\n    createdAt = Column(DateTime, default=datetime.now)",
+        "detail": "models.users",
+        "documentation": {}
+    },
+    {
+        "label": "Users",
+        "kind": 6,
+        "importPath": "models.users",
+        "description": "models.users",
+        "peekOfCode": "class Users(Base):\n    __tablename__ = \"users\"\n    id =  Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))\n    name =  Column(String, index=True)\n    gender = Column(SQLAlchemyEnum(Gender), nullable=False)\n    dob = Column(DateTime)\n    createdAt = Column(DateTime, default=datetime.now)\n    updatedAt = Column(DateTime, default=datetime.now, onupdate=datetime.now)\n    todo_lists = relationship(\"TodoList\", back_populates=\"owner\")",
+        "detail": "models.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "routers.todoItems",
+        "description": "routers.todoItems",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/todo_lists/{todoList_id}/items\")\ndef create_todoItems_for_todoList(todoList_id: str, items_data: List[schemas.TodoItemCreate], db: Session = Depends(get_db)):\n    created_items = crud.create_todoItems_for_todoList(db=db, todoList_id=todoList_id, items_data=items_data)\n    if not created_items:",
+        "detail": "routers.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "create_todoItems_for_todoList",
+        "kind": 2,
+        "importPath": "routers.todoItems",
+        "description": "routers.todoItems",
+        "peekOfCode": "def create_todoItems_for_todoList(todoList_id: str, items_data: List[schemas.TodoItemCreate], db: Session = Depends(get_db)):\n    created_items = crud.create_todoItems_for_todoList(db=db, todoList_id=todoList_id, items_data=items_data)\n    if not created_items:\n        return {\n            \"message\": \"Todo list not found\",\n            \"data\": None,\n            \"status_code\": 404\n        }\n    return {\n        \"message\": \"Todo items created successfully\",",
+        "detail": "routers.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "read_todoList_with_items",
+        "kind": 2,
+        "importPath": "routers.todoItems",
+        "description": "routers.todoItems",
+        "peekOfCode": "def read_todoList_with_items(todoList_id: str, db: Session = Depends(get_db)):\n    todo_list = crud.get_todoList_with_items(db=db, todoList_id=todoList_id)\n    if not todo_list:\n        return {\n            \"message\": \"Todo list not found\",\n            \"data\": None,\n            \"status_code\": 404\n        }\n    return {\n        \"message\": \"Todo list with items retrieved successfully\",",
+        "detail": "routers.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "update_todoItems",
+        "kind": 2,
+        "importPath": "routers.todoItems",
+        "description": "routers.todoItems",
+        "peekOfCode": "def update_todoItems(todoList_id: str, todoItem_id: str, items_data: TodoItemCreate, db: Session = Depends(get_db)):   \n    updated_items = crud.update_todoItems(db=db, todoItem_id=todoItem_id, todoList_id=todoList_id, items_data=items_data)\n    if not updated_items:\n        return {\n            \"message\": \"Todo list not found\",\n            \"data\": None,\n            \"status_code\": 404\n        }\n    return {\n        \"message\": \"Todo items updated successfully\",",
+        "detail": "routers.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "delete_todoItem",
+        "kind": 2,
+        "importPath": "routers.todoItems",
+        "description": "routers.todoItems",
+        "peekOfCode": "def delete_todoItem(item_id: str, db: Session = Depends(get_db)):\n    result = crud.delete_todoItem(db=db, item_id=item_id)\n    if not result:\n        return {\n            \"message\": \"Todo item not found\",\n            \"data\": None,\n            \"status_code\": 404\n        }\n    return {\n        \"message\": \"Todo item deleted successfully\",",
+        "detail": "routers.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.todoItems",
+        "description": "routers.todoItems",
+        "peekOfCode": "router = APIRouter()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/todo_lists/{todoList_id}/items\")\ndef create_todoItems_for_todoList(todoList_id: str, items_data: List[schemas.TodoItemCreate], db: Session = Depends(get_db)):\n    created_items = crud.create_todoItems_for_todoList(db=db, todoList_id=todoList_id, items_data=items_data)",
+        "detail": "routers.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "routers.todoList",
+        "description": "routers.todoList",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/\")\ndef create_todoList(todoList: schemas.TodoListCreate, db: Session = Depends(get_db)):\n    todo_list = crud.create_todoList(db=db, todoList=todoList)\n    return {",
+        "detail": "routers.todoList",
+        "documentation": {}
+    },
+    {
+        "label": "create_todoList",
+        "kind": 2,
+        "importPath": "routers.todoList",
+        "description": "routers.todoList",
+        "peekOfCode": "def create_todoList(todoList: schemas.TodoListCreate, db: Session = Depends(get_db)):\n    todo_list = crud.create_todoList(db=db, todoList=todoList)\n    return {\n        \"message\": \"Todo list created successfully\",\n        \"data\": todo_list,\n        \"status_code\": 200\n    }\n@router.get(\"/\")\ndef read_todoLists(db: Session = Depends(get_db)):\n    todo_lists = crud.get_todoLists(db)",
+        "detail": "routers.todoList",
+        "documentation": {}
+    },
+    {
+        "label": "read_todoLists",
+        "kind": 2,
+        "importPath": "routers.todoList",
+        "description": "routers.todoList",
+        "peekOfCode": "def read_todoLists(db: Session = Depends(get_db)):\n    todo_lists = crud.get_todoLists(db)\n    if not todo_lists:\n        return {\n            \"message\": \"No todo lists found\",\n            \"data\": [],\n            \"status_code\": 404\n        }\n    return {\n        \"message\": \"Todo lists are retrieved successfully\",",
+        "detail": "routers.todoList",
+        "documentation": {}
+    },
+    {
+        "label": "update_todoList",
+        "kind": 2,
+        "importPath": "routers.todoList",
+        "description": "routers.todoList",
+        "peekOfCode": "def update_todoList(todoList_id: str, todoList: schemas.TodoListCreate, db: Session = Depends(get_db)):\n    updated_todo_list = crud.update_todoList(db=db, todoList_id=todoList_id, todoList=todoList)\n    if not updated_todo_list:\n        return {\n            \"message\": \"Todo list not found\",\n            \"data\": None,\n            \"status_code\": 404\n        }\n    return {\n        \"message\": \"Todo list is updated successfully\",",
+        "detail": "routers.todoList",
+        "documentation": {}
+    },
+    {
+        "label": "delete_todoList_with_items",
+        "kind": 2,
+        "importPath": "routers.todoList",
+        "description": "routers.todoList",
+        "peekOfCode": "def delete_todoList_with_items(todoList_id: str, db: Session = Depends(get_db)):\n    result = crud.delete_todoList_with_items(db=db, todoList_id=todoList_id)\n    if not result:\n        return {\n            \"message\": \"Todo list not found\",\n            \"data\": None,\n            \"status_code\": 404\n        }\n    return {\n        \"message\": \"Todo items deleted successfully\",",
+        "detail": "routers.todoList",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.todoList",
+        "description": "routers.todoList",
+        "peekOfCode": "router = APIRouter()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/\")\ndef create_todoList(todoList: schemas.TodoListCreate, db: Session = Depends(get_db)):\n    todo_list = crud.create_todoList(db=db, todoList=todoList)",
+        "detail": "routers.todoList",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "routers.users",
+        "description": "routers.users",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/\", response_model=None) \ndef create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):\n    users = crud.create_user(db=db, user=user)\n    return {",
+        "detail": "routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "routers.users",
+        "description": "routers.users",
+        "peekOfCode": "def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):\n    users = crud.create_user(db=db, user=user)\n    return {\n        \"message\": \"User created successfully\",\n        \"data\": users,\n        \"status_code\": 200\n    }\n@router.get(\"/\") \ndef read_users(db: Session = Depends(get_db)):\n    users = crud.get_users(db)",
+        "detail": "routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "read_users",
+        "kind": 2,
+        "importPath": "routers.users",
+        "description": "routers.users",
+        "peekOfCode": "def read_users(db: Session = Depends(get_db)):\n    users = crud.get_users(db)\n    if not users:\n        return {\n            \"message\": \"No users found\",\n            \"data\": [],\n            \"status_code\": 404\n        }\n    return {\n        \"message\": \"Users are retrieved successfully\",",
+        "detail": "routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "update_user",
+        "kind": 2,
+        "importPath": "routers.users",
+        "description": "routers.users",
+        "peekOfCode": "def update_user(user_id: str, user: schemas.UserCreate, db: Session = Depends(get_db)):\n    updated_user = crud.update_user(db=db, user_id=user_id, user=user)\n    if(not updated_user):\n        return {\n            \"message\": \"User not found\",\n            \"data\": None,\n            \"status_code\": 404\n        }\n    return {\"message\": \"User is updated successfully\",\"data\": updated_user,\"status code\": 200}\n@router.delete(\"/users/{user_id}\")",
+        "detail": "routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "delete_user",
+        "kind": 2,
+        "importPath": "routers.users",
+        "description": "routers.users",
+        "peekOfCode": "def delete_user(user_id: str, db: Session = Depends(get_db)):\n    result = crud.delete_user(db=db, user_id=user_id)\n    if(not result):\n        return {\n            \"message\": \"User not found\",\n            \"data\": None,\n            \"status_code\": 404\n        }\n    return {\"message\": \"User is deleted successfully\",\"status code\": 200}",
+        "detail": "routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.users",
+        "description": "routers.users",
+        "peekOfCode": "router = APIRouter()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/\", response_model=None) \ndef create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):\n    users = crud.create_user(db=db, user=user)",
+        "detail": "routers.users",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemBase",
+        "kind": 6,
+        "importPath": "schemas.todoItems",
+        "description": "schemas.todoItems",
+        "peekOfCode": "class TodoItemBase(BaseModel):\n    name: str\n    des: Optional[str] = None\n    due_at: Optional[datetime] = None\n    status: ItemStatus = ItemStatus.TODO\n# Class dùng để TẠO (Create) - Client gửi lên\nclass TodoItemCreate(TodoItemBase):\n    todo_group_id: str \n# Class dùng để TRẢ VỀ (Response) - Server trả về\nclass TodoItemResponse(TodoItemBase):",
+        "detail": "schemas.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemCreate",
+        "kind": 6,
+        "importPath": "schemas.todoItems",
+        "description": "schemas.todoItems",
+        "peekOfCode": "class TodoItemCreate(TodoItemBase):\n    todo_group_id: str \n# Class dùng để TRẢ VỀ (Response) - Server trả về\nclass TodoItemResponse(TodoItemBase):\n    id: str\n    createdAt: datetime\n    updatedAt: datetime\n    class Config:\n        from_attributes = True",
+        "detail": "schemas.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "TodoItemResponse",
+        "kind": 6,
+        "importPath": "schemas.todoItems",
+        "description": "schemas.todoItems",
+        "peekOfCode": "class TodoItemResponse(TodoItemBase):\n    id: str\n    createdAt: datetime\n    updatedAt: datetime\n    class Config:\n        from_attributes = True",
+        "detail": "schemas.todoItems",
+        "documentation": {}
+    },
+    {
+        "label": "TodoListBase",
+        "kind": 6,
+        "importPath": "schemas.todoLists",
+        "description": "schemas.todoLists",
+        "peekOfCode": "class TodoListBase(BaseModel):\n    name: str\n    status: ListStatus = ListStatus.UNFINISHED\n    user_id: str\nclass TodoListCreate(TodoListBase):\n    pass\nclass TodoListResponse(TodoListBase):\n    id: str\n    createdAt: datetime\n    updatedAt: datetime",
+        "detail": "schemas.todoLists",
+        "documentation": {}
+    },
+    {
+        "label": "TodoListCreate",
+        "kind": 6,
+        "importPath": "schemas.todoLists",
+        "description": "schemas.todoLists",
+        "peekOfCode": "class TodoListCreate(TodoListBase):\n    pass\nclass TodoListResponse(TodoListBase):\n    id: str\n    createdAt: datetime\n    updatedAt: datetime\n    items: List[TodoItemResponse] = [] \n    class Config:\n        from_attributes = True",
+        "detail": "schemas.todoLists",
+        "documentation": {}
+    },
+    {
+        "label": "TodoListResponse",
+        "kind": 6,
+        "importPath": "schemas.todoLists",
+        "description": "schemas.todoLists",
+        "peekOfCode": "class TodoListResponse(TodoListBase):\n    id: str\n    createdAt: datetime\n    updatedAt: datetime\n    items: List[TodoItemResponse] = [] \n    class Config:\n        from_attributes = True",
+        "detail": "schemas.todoLists",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "schemas.users",
+        "description": "schemas.users",
+        "peekOfCode": "class UserBase(BaseModel):\n    name: str\n    gender: Gender\n    dob: Optional[datetime] = None\nclass UserCreate(UserBase):\n    pass\nclass UserResponse(UserBase):\n    id: str\n    createdAt: datetime\n    updatedAt: datetime",
+        "detail": "schemas.users",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "schemas.users",
+        "description": "schemas.users",
+        "peekOfCode": "class UserCreate(UserBase):\n    pass\nclass UserResponse(UserBase):\n    id: str\n    createdAt: datetime\n    updatedAt: datetime\n    class Config:\n        from_attributes = True",
+        "detail": "schemas.users",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "schemas.users",
+        "description": "schemas.users",
+        "peekOfCode": "class UserResponse(UserBase):\n    id: str\n    createdAt: datetime\n    updatedAt: datetime\n    class Config:\n        from_attributes = True",
+        "detail": "schemas.users",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()\napp.include_router(users.router, prefix=\"/users\", tags=[\"Users\"])\napp.include_router(todoList.router, prefix=\"/todo_lists\", tags=[\"Todo Lists\"])\napp.include_router(todoItems.router, prefix=\"/todo_items\", tags=[\"Todo Items\"])",
+        "detail": "main",
+        "documentation": {}
+    }
+]

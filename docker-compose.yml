@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: postgres_todo_app
+    restart: always
+    environment:
+      - POSTGRES_USER=myuser        # Tên đăng nhập
+      - POSTGRES_PASSWORD=mypassword # Mật khẩu
+      - POSTGRES_DB=todo_db         # Tên Database
+    ports:
+      - "5432:5432"                 # Mở cổng 5432 ra ngoài để code kết nối vào
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Để dữ liệu không bị mất khi tắt container
+
+volumes:
+  postgres_data:
