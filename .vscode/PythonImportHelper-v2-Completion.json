@@ -339,6 +339,14 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "UploadFile",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -1558,7 +1566,7 @@
         "kind": 2,
         "importPath": "routers.fileEndpoint",
         "description": "routers.fileEndpoint",
-        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/upload\", response_model=None)\nasync def upload_file(file: UploadFile = File(...), db: Session = Depends(get_db)):\n    file_path = UPLOAD_FOLDER / file.filename\n    mimetype = file.content_type",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/upload\", response_model=None)\nasync def upload_file(file: UploadFile = File(...), db: Session = Depends(get_db)):\n    file_path = UPLOAD_FOLDER / file.filename\n    contents = await file.read()  ",
         "detail": "routers.fileEndpoint",
         "documentation": {}
     },
@@ -1567,7 +1575,7 @@
         "kind": 5,
         "importPath": "routers.fileEndpoint",
         "description": "routers.fileEndpoint",
-        "peekOfCode": "router = fastapi.APIRouter(dependencies=[fastapi.Depends(require_auth)])\nsecurity = HTTPBearer()\nUPLOAD_FOLDER = Path(\"uploads\")\nUPLOAD_FOLDER.mkdir(exist_ok=True) \ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "peekOfCode": "router = fastapi.APIRouter(dependencies=[fastapi.Depends(require_auth)])\nsecurity = HTTPBearer()\nUPLOAD_FOLDER = Path(\"uploads\")\nUPLOAD_FOLDER.mkdir(exist_ok=True) \nMAX_SIZE = 50 * 1024 * 1024 #50MB\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
         "detail": "routers.fileEndpoint",
         "documentation": {}
     },
@@ -1576,7 +1584,7 @@
         "kind": 5,
         "importPath": "routers.fileEndpoint",
         "description": "routers.fileEndpoint",
-        "peekOfCode": "security = HTTPBearer()\nUPLOAD_FOLDER = Path(\"uploads\")\nUPLOAD_FOLDER.mkdir(exist_ok=True) \ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/upload\", response_model=None)",
+        "peekOfCode": "security = HTTPBearer()\nUPLOAD_FOLDER = Path(\"uploads\")\nUPLOAD_FOLDER.mkdir(exist_ok=True) \nMAX_SIZE = 50 * 1024 * 1024 #50MB\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
         "detail": "routers.fileEndpoint",
         "documentation": {}
     },
@@ -1585,7 +1593,16 @@
         "kind": 5,
         "importPath": "routers.fileEndpoint",
         "description": "routers.fileEndpoint",
-        "peekOfCode": "UPLOAD_FOLDER = Path(\"uploads\")\nUPLOAD_FOLDER.mkdir(exist_ok=True) \ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/upload\", response_model=None)\nasync def upload_file(file: UploadFile = File(...), db: Session = Depends(get_db)):",
+        "peekOfCode": "UPLOAD_FOLDER = Path(\"uploads\")\nUPLOAD_FOLDER.mkdir(exist_ok=True) \nMAX_SIZE = 50 * 1024 * 1024 #50MB\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/upload\", response_model=None)",
+        "detail": "routers.fileEndpoint",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_SIZE",
+        "kind": 5,
+        "importPath": "routers.fileEndpoint",
+        "description": "routers.fileEndpoint",
+        "peekOfCode": "MAX_SIZE = 50 * 1024 * 1024 #50MB\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/upload\", response_model=None)\nasync def upload_file(file: UploadFile = File(...), db: Session = Depends(get_db)):\n    file_path = UPLOAD_FOLDER / file.filename",
         "detail": "routers.fileEndpoint",
         "documentation": {}
     },
