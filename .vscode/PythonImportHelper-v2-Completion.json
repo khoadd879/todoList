@@ -72,6 +72,14 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -266,6 +274,23 @@
         "documentation": {}
     },
     {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -307,6 +332,30 @@
     },
     {
         "label": "Security",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -450,6 +499,14 @@
         "documentation": {}
     },
     {
+        "label": "HTTPBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
         "importPath": "pydantic",
         "description": "pydantic",
@@ -523,6 +580,22 @@
     },
     {
         "label": "Base",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
         "importPath": "database.database",
         "description": "database.database",
         "isExtraImport": true,
@@ -595,6 +668,14 @@
     },
     {
         "label": "Gender",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "FileUpload",
         "importPath": "models",
         "description": "models",
         "isExtraImport": true,
@@ -741,6 +822,54 @@
     },
     {
         "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -940,6 +1069,55 @@
         "documentation": {}
     },
     {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "importPath": "dependencies.auth",
+        "description": "dependencies.auth",
+        "isExtraImport": true,
+        "detail": "dependencies.auth",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "importPath": "dependencies.auth",
+        "description": "dependencies.auth",
+        "isExtraImport": true,
+        "detail": "dependencies.auth",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "importPath": "dependencies.auth",
+        "description": "dependencies.auth",
+        "isExtraImport": true,
+        "detail": "dependencies.auth",
+        "documentation": {}
+    },
+    {
+        "label": "require_auth",
+        "importPath": "dependencies.auth",
+        "description": "dependencies.auth",
+        "isExtraImport": true,
+        "detail": "dependencies.auth",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
         "label": "crud,",
         "kind": 6,
         "isExtraImport": true,
@@ -955,30 +1133,6 @@
         "importPath": "schemas",
         "description": "schemas",
         "detail": "schemas",
-        "documentation": {}
-    },
-    {
-        "label": "require_auth",
-        "importPath": "dependencies.auth",
-        "description": "dependencies.auth",
-        "isExtraImport": true,
-        "detail": "dependencies.auth",
-        "documentation": {}
-    },
-    {
-        "label": "require_auth",
-        "importPath": "dependencies.auth",
-        "description": "dependencies.auth",
-        "isExtraImport": true,
-        "detail": "dependencies.auth",
-        "documentation": {}
-    },
-    {
-        "label": "require_auth",
-        "importPath": "dependencies.auth",
-        "description": "dependencies.auth",
-        "isExtraImport": true,
-        "detail": "dependencies.auth",
         "documentation": {}
     },
     {
@@ -999,6 +1153,14 @@
     },
     {
         "label": "todoItems",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "fileEndpoint",
         "importPath": "routers",
         "description": "routers",
         "isExtraImport": true,
@@ -1072,7 +1234,7 @@
         "kind": 5,
         "importPath": "auth.auth",
         "description": "auth.auth",
-        "peekOfCode": "router = APIRouter()\nSECRET_KEY = os.getenv(\"SECRET_KEY\", \"mat_khau_mac_dinh_cho_dev\")\nREFRESH_SECRET_KEY= os.getenv(\"REFRESH_SECRET_KEY\", \"12311212414at_khau_mac_dinh_cho_dev\")\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\nREFRESH_TOKEN_EXPIRE_MINUTES= 300\nprint(\"PWD:\", os.getcwd())\nprint(\"SECRET_KEY used:\", SECRET_KEY)\nprint(\"REFRESH_SECRET_KEY used:\", REFRESH_SECRET_KEY)\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")",
+        "peekOfCode": "router = APIRouter()\nSECRET_KEY = os.getenv(\"SECRET_KEY\", \"mat_khau_mac_dinh_cho_dev\")\nREFRESH_SECRET_KEY= os.getenv(\"REFRESH_SECRET_KEY\", \"12311212414at_khau_mac_dinh_cho_dev\")\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\nREFRESH_TOKEN_EXPIRE_MINUTES= 300\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer= OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateAccount(BaseModel):\n    username: str",
         "detail": "auth.auth",
         "documentation": {}
     },
@@ -1081,7 +1243,7 @@
         "kind": 5,
         "importPath": "auth.auth",
         "description": "auth.auth",
-        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\", \"mat_khau_mac_dinh_cho_dev\")\nREFRESH_SECRET_KEY= os.getenv(\"REFRESH_SECRET_KEY\", \"12311212414at_khau_mac_dinh_cho_dev\")\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\nREFRESH_TOKEN_EXPIRE_MINUTES= 300\nprint(\"PWD:\", os.getcwd())\nprint(\"SECRET_KEY used:\", SECRET_KEY)\nprint(\"REFRESH_SECRET_KEY used:\", REFRESH_SECRET_KEY)\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer= OAuth2PasswordBearer(tokenUrl=\"auth/token\")",
+        "peekOfCode": "SECRET_KEY = os.getenv(\"SECRET_KEY\", \"mat_khau_mac_dinh_cho_dev\")\nREFRESH_SECRET_KEY= os.getenv(\"REFRESH_SECRET_KEY\", \"12311212414at_khau_mac_dinh_cho_dev\")\nALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\nREFRESH_TOKEN_EXPIRE_MINUTES= 300\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer= OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateAccount(BaseModel):\n    username: str\n    password: str",
         "detail": "auth.auth",
         "documentation": {}
     },
@@ -1090,7 +1252,7 @@
         "kind": 5,
         "importPath": "auth.auth",
         "description": "auth.auth",
-        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\nREFRESH_TOKEN_EXPIRE_MINUTES= 300\nprint(\"PWD:\", os.getcwd())\nprint(\"SECRET_KEY used:\", SECRET_KEY)\nprint(\"REFRESH_SECRET_KEY used:\", REFRESH_SECRET_KEY)\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer= OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateAccount(BaseModel):\n    username: str",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nACCESS_TOKEN_EXPIRE_MINUTES = 30\nREFRESH_TOKEN_EXPIRE_MINUTES= 300\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer= OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateAccount(BaseModel):\n    username: str\n    password: str\n    confirmPassword: str\nclass LoginData(BaseModel):",
         "detail": "auth.auth",
         "documentation": {}
     },
@@ -1099,7 +1261,7 @@
         "kind": 5,
         "importPath": "auth.auth",
         "description": "auth.auth",
-        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30\nREFRESH_TOKEN_EXPIRE_MINUTES= 300\nprint(\"PWD:\", os.getcwd())\nprint(\"SECRET_KEY used:\", SECRET_KEY)\nprint(\"REFRESH_SECRET_KEY used:\", REFRESH_SECRET_KEY)\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer= OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateAccount(BaseModel):\n    username: str\n    password: str",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30\nREFRESH_TOKEN_EXPIRE_MINUTES= 300\nbcrypt_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_bearer= OAuth2PasswordBearer(tokenUrl=\"auth/token\")\nclass CreateAccount(BaseModel):\n    username: str\n    password: str\n    confirmPassword: str\nclass LoginData(BaseModel):\n    username: str",
         "detail": "auth.auth",
         "documentation": {}
     },
@@ -1329,6 +1491,15 @@
         "documentation": {}
     },
     {
+        "label": "FileUpload",
+        "kind": 6,
+        "importPath": "models.fileUploadModel",
+        "description": "models.fileUploadModel",
+        "peekOfCode": "class FileUpload(Base):\n    __tablename__ = \"files\"\n    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))\n    path = Column(String)\n    type = Column(String)\n    createdAt= Column(DateTime, default=datetime.now)",
+        "detail": "models.fileUploadModel",
+        "documentation": {}
+    },
+    {
         "label": "Status",
         "kind": 6,
         "importPath": "models.todoItems",
@@ -1380,6 +1551,42 @@
         "description": "models.users",
         "peekOfCode": "class Users(Base):\n    __tablename__ = \"users\"\n    id =  Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))\n    name =  Column(String, nullable=True)\n    gender = Column(SQLAlchemyEnum(Gender), nullable=True)\n    dob = Column(DateTime, nullable=True)\n    createdAt = Column(DateTime, default=datetime.now)\n    updatedAt = Column(DateTime, default=datetime.now, onupdate=datetime.now)\n    todo_lists = relationship(\"TodoList\", back_populates=\"owner\")\n    account = relationship(\"Account\", back_populates=\"user\", uselist=False)",
         "detail": "models.users",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "routers.fileEndpoint",
+        "description": "routers.fileEndpoint",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/upload\", response_model=None)\nasync def upload_file(file: UploadFile = File(...), db: Session = Depends(get_db)):\n    file_path = UPLOAD_FOLDER / file.filename\n    mimetype = file.content_type",
+        "detail": "routers.fileEndpoint",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.fileEndpoint",
+        "description": "routers.fileEndpoint",
+        "peekOfCode": "router = fastapi.APIRouter(dependencies=[fastapi.Depends(require_auth)])\nsecurity = HTTPBearer()\nUPLOAD_FOLDER = Path(\"uploads\")\nUPLOAD_FOLDER.mkdir(exist_ok=True) \ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "routers.fileEndpoint",
+        "documentation": {}
+    },
+    {
+        "label": "security",
+        "kind": 5,
+        "importPath": "routers.fileEndpoint",
+        "description": "routers.fileEndpoint",
+        "peekOfCode": "security = HTTPBearer()\nUPLOAD_FOLDER = Path(\"uploads\")\nUPLOAD_FOLDER.mkdir(exist_ok=True) \ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/upload\", response_model=None)",
+        "detail": "routers.fileEndpoint",
+        "documentation": {}
+    },
+    {
+        "label": "UPLOAD_FOLDER",
+        "kind": 5,
+        "importPath": "routers.fileEndpoint",
+        "description": "routers.fileEndpoint",
+        "peekOfCode": "UPLOAD_FOLDER = Path(\"uploads\")\nUPLOAD_FOLDER.mkdir(exist_ok=True) \ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@router.post(\"/upload\", response_model=None)\nasync def upload_file(file: UploadFile = File(...), db: Session = Depends(get_db)):",
+        "detail": "routers.fileEndpoint",
         "documentation": {}
     },
     {
@@ -1540,7 +1747,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI()\napp.include_router(auth.router, prefix=\"/auth\", tags=[\"Authentication\"])\napp.include_router(users.router, prefix=\"/users\", tags=[\"Users\"])\napp.include_router(todoList.router, prefix=\"/todo_lists\", tags=[\"Todo Lists\"])\napp.include_router(todoItems.router, prefix=\"/todo_items\", tags=[\"Todo Items\"])",
+        "peekOfCode": "app = FastAPI()\napp.include_router(auth.router, prefix=\"/auth\", tags=[\"Authentication\"])\napp.include_router(users.router, prefix=\"/users\", tags=[\"Users\"])\napp.include_router(todoList.router, prefix=\"/todo_lists\", tags=[\"Todo Lists\"])\napp.include_router(todoItems.router, prefix=\"/todo_items\", tags=[\"Todo Items\"])\napp.include_router(fileEndpoint.router, prefix=\"/file\", tags=[\"Files\"])",
         "detail": "main",
         "documentation": {}
     }

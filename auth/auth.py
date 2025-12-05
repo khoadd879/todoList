@@ -27,10 +27,6 @@ ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 REFRESH_TOKEN_EXPIRE_MINUTES= 300
 
-print("PWD:", os.getcwd())
-print("SECRET_KEY used:", SECRET_KEY)
-print("REFRESH_SECRET_KEY used:", REFRESH_SECRET_KEY)
-
 
 bcrypt_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_bearer= OAuth2PasswordBearer(tokenUrl="auth/token")
