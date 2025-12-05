@@ -1,10 +1,14 @@
 from fastapi import APIRouter, Depends
+from fastapi.security import HTTPBearer
 from sqlalchemy.orm import Session
 from typing import List
 from database.database import SessionLocal 
 import crud, schemas
+from dependencies.auth import require_auth
 
-router = APIRouter()
+router = APIRouter(dependencies=[Depends(require_auth)])
+
+security = HTTPBearer()
 
 def get_db():
     db = SessionLocal()
@@ -14,7 +18,7 @@ def get_db():
         db.close()
 
 @router.post("/", response_model=None) 
-def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
+async def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     users = crud.create_user(db=db, user=user)
     return {
         "message": "User created successfully",
@@ -23,7 +27,7 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     }
 
 @router.get("/") 
-def read_users(db: Session = Depends(get_db)):
+async def read_users(db: Session = Depends(get_db)):
     users = crud.get_users(db)
     if not users:
         return {
@@ -38,7 +42,7 @@ def read_users(db: Session = Depends(get_db)):
     }
 
 @router.put("/users/{user_id}")
-def update_user(user_id: str, user: schemas.UserCreate, db: Session = Depends(get_db)):
+async def update_user(user_id: str, user: schemas.UserCreate, db: Session = Depends(get_db)):
     updated_user = crud.update_user(db=db, user_id=user_id, user=user)
     if(not updated_user):
         return {
@@ -49,7 +53,7 @@ def update_user(user_id: str, user: schemas.UserCreate, db: Session = Depends(ge
     return {"message": "User is updated successfully","data": updated_user,"status code": 200}
 
 @router.delete("/users/{user_id}")
-def delete_user(user_id: str, db: Session = Depends(get_db)):
+async def delete_user(user_id: str, db: Session = Depends(get_db)):
     result = crud.delete_user(db=db, user_id=user_id)
     if(not result):
         return {

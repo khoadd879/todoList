@@ -3,8 +3,9 @@ from sqlalchemy.orm import Session
 from typing import List
 from database.database import SessionLocal 
 import crud, schemas
+from dependencies.auth import require_auth
 
-router = APIRouter()
+router = APIRouter(dependencies=[Depends(require_auth)])
 
 def get_db():
     db = SessionLocal()
@@ -14,7 +15,7 @@ def get_db():
         db.close()
         
 @router.post("/")
-def create_todoList(todoList: schemas.TodoListCreate, db: Session = Depends(get_db)):
+async def create_todoList(todoList: schemas.TodoListCreate, db: Session = Depends(get_db)):
     todo_list = crud.create_todoList(db=db, todoList=todoList)
     return {
         "message": "Todo list created successfully",
@@ -23,7 +24,7 @@ def create_todoList(todoList: schemas.TodoListCreate, db: Session = Depends(get_
     }
 
 @router.get("/")
-def read_todoLists(db: Session = Depends(get_db)):
+async def read_todoLists(db: Session = Depends(get_db)):
     todo_lists = crud.get_todoLists(db)
     if not todo_lists:
         return {
@@ -53,7 +54,7 @@ def update_todoList(todoList_id: str, todoList: schemas.TodoListCreate, db: Sess
     }
     
 @router.delete("/todo_lists/{todoList_id}/items")
-def delete_todoList_with_items(todoList_id: str, db: Session = Depends(get_db)):
+async def delete_todoList_with_items(todoList_id: str, db: Session = Depends(get_db)):
     result = crud.delete_todoList_with_items(db=db, todoList_id=todoList_id)
     if not result:
         return {

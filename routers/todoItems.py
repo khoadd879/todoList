@@ -5,8 +5,9 @@ from database.database import SessionLocal
 import crud, schemas
 import schemas
 from schemas.todoItems import TodoItemCreate
+from dependencies.auth import require_auth
 
-router = APIRouter()
+router = APIRouter(dependencies=[Depends(require_auth)])
 
 def get_db():
     db = SessionLocal()
@@ -16,7 +17,7 @@ def get_db():
         db.close()
         
 @router.post("/todo_lists/{todoList_id}/items")
-def create_todoItems_for_todoList(todoList_id: str, items_data: List[schemas.TodoItemCreate], db: Session = Depends(get_db)):
+async def create_todoItems_for_todoList(todoList_id: str, items_data: List[schemas.TodoItemCreate], db: Session = Depends(get_db)):
     created_items = crud.create_todoItems_for_todoList(db=db, todoList_id=todoList_id, items_data=items_data)
     if not created_items:
         return {
@@ -31,7 +32,7 @@ def create_todoItems_for_todoList(todoList_id: str, items_data: List[schemas.Tod
     }
     
 @router.get("/todo_lists/{todoList_id}/items")
-def read_todoList_with_items(todoList_id: str, db: Session = Depends(get_db)):
+async def read_todoList_with_items(todoList_id: str, db: Session = Depends(get_db)):
     todo_list = crud.get_todoList_with_items(db=db, todoList_id=todoList_id)
     if not todo_list:
         return {
@@ -46,7 +47,7 @@ def read_todoList_with_items(todoList_id: str, db: Session = Depends(get_db)):
     }
     
 @router.put("/{todoList_id}/{todoItem_id}")
-def update_todoItems(todoList_id: str, todoItem_id: str, items_data: TodoItemCreate, db: Session = Depends(get_db)):   
+async def update_todoItems(todoList_id: str, todoItem_id: str, items_data: TodoItemCreate, db: Session = Depends(get_db)):   
     updated_items = crud.update_todoItems(db=db, todoItem_id=todoItem_id, todoList_id=todoList_id, items_data=items_data)
     if not updated_items:
         return {
@@ -61,7 +62,7 @@ def update_todoItems(todoList_id: str, todoItem_id: str, items_data: TodoItemCre
     }
 
 @router.delete("/items/{item_id}")    
-def delete_todoItem(item_id: str, db: Session = Depends(get_db)):
+async def delete_todoItem(item_id: str, db: Session = Depends(get_db)):
     result = crud.delete_todoItem(db=db, item_id=item_id)
     if not result:
         return {

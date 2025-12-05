@@ -13,10 +13,11 @@ class Users(Base):
     __tablename__ = "users"
     
     id =  Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
-    name =  Column(String, index=True)
-    gender = Column(SQLAlchemyEnum(Gender), nullable=False)
-    dob = Column(DateTime)
+    name =  Column(String, nullable=True)
+    gender = Column(SQLAlchemyEnum(Gender), nullable=True)
+    dob = Column(DateTime, nullable=True)
     createdAt = Column(DateTime, default=datetime.now)
     updatedAt = Column(DateTime, default=datetime.now, onupdate=datetime.now)
     
     todo_lists = relationship("TodoList", back_populates="owner")
+    account = relationship("Account", back_populates="user", uselist=False)
